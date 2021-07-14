@@ -1,9 +1,11 @@
 ---
 layout: layouts/home.njk
 eleventyNavigation:
-  key: Home
-  order: 1
+  key: Past Events
+  order: 2
 ---
+
+<h1>Give a talk at EmberJS Berlin</h1>
 {% set maxPosts = collections.posts.length | min(3) %}
 <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
 
