@@ -1,7 +1,7 @@
 ---
 layout: layouts/current-event.njk
 title: EmberJS Berlin
-templateClass: tmpl-post
+templateClass: tmpl-event
 date: 2021-09-07
 hideDate: true
 eleventyNavigation:

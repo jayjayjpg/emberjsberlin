@@ -1,7 +1,7 @@
 ---
-layout: layouts/post.njk
+layout: layouts/event.njk
 title: About
-templateClass: tmpl-post
+templateClass: tmpl-event
 eleventyNavigation:
   key: About
   order: 4

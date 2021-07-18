@@ -1,11 +1,11 @@
-<ol reversed class="postlist" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
-{% for post in postslist | reverse %}
-  <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
-    <a href="{{ post.url | url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-    <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-    {% for tag in post.data.tags | filterTagList %}
+<ol reversed class="eventlist" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
+{% for event in postslist | reverse %}
+  <li class="eventlist-item{% if event.url == url %} eventlist-item-active{% endif %}">
+    <a href="{{ event.url | url }}" class="eventlist-link">{% if event.data.title %}{{ event.data.title }}{% else %}<code>{{ event.url }}</code>{% endif %}</a>
+    <time class="eventlist-date" datetime="{{ event.date | htmlDateString }}">{{ event.date | readableDate }}</time>
+    {% for tag in event.data.tags | filterTagList %}
       {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-      <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+      <a href="{{ tagUrl | url }}" class="event-tag">{{ tag }}</a>
     {% endfor %}
   </li>
 {% endfor %}

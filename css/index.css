@@ -1,8 +1,8 @@
 /* Colors */
 :root {
-  --lightgray: #e0e0e0;
-  --gray: #C0C0C0;
-  --darkgray: #333;
+  --lightgray: #E8E8E8;
+  --gray: #425666;
+  --darkgray: #101519;
   --navy: #17050F;
   --blue: #082840;
   --white: #fff;
@@ -19,18 +19,18 @@ body {
   margin: 0;
   font-family: -apple-system, system-ui, sans-serif;
   color: var(--darkgray);
-  background-color: var(--white);
+  background-color: var(--lightgray);
 }
 p:last-child {
   margin-bottom: 0;
 }
 p,
-.tmpl-post li,
+.tmpl-event li,
 img {
   max-width: 37.5em; /* 600px /16 */
 }
 p,
-.tmpl-post li {
+.tmpl-event li {
   line-height: 1.45;
 }
 a[href] {
@@ -149,51 +149,51 @@ code {
   text-decoration: underline;
 }
 
-/* Posts list */
-.postlist {
+/* events list */
+.eventlist {
   list-style: none;
   padding: 0;
 }
-.postlist-item {
+.eventlist-item {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
   counter-increment: start-from -1;
   line-height: 1.8;
 }
-.postlist-item:before {
+.eventlist-item:before {
   display: inline-block;
   pointer-events: none;
   content: "" counter(start-from, decimal-leading-zero) ". ";
   line-height: 100%;
   text-align: right;
 }
-.postlist-date,
-.postlist-item:before {
+.eventlist-date,
+.eventlist-item:before {
   font-size: 0.8125em; /* 13px /16 */
   color: var(--darkgray);
 }
-.postlist-date {
+.eventlist-date {
   word-spacing: -0.5px;
 }
-.postlist-link {
+.eventlist-link {
   padding-left: .25em;
   padding-right: .25em;
   text-underline-position: from-font;
   text-underline-offset: 0;
   text-decoration-thickness: 1px;
 }
-.postlist-item-active .postlist-link {
+.eventlist-item-active .eventlist-link {
   font-weight: bold;
 }
-.tmpl-home .postlist-link {
+.tmpl-home .eventlist-link {
   font-size: 1.1875em; /* 19px /16 */
   font-weight: 700;
 }
 
 
 /* Tags */
-.post-tag {
+.event-tag {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -207,15 +207,15 @@ code {
   text-decoration: none;
   line-height: 1.8;
 }
-a[href].post-tag,
-a[href].post-tag:visited {
+a[href].event-tag,
+a[href].event-tag:visited {
   color: inherit;
 }
-a[href].post-tag:hover,
-a[href].post-tag:focus {
+a[href].event-tag:hover,
+a[href].event-tag:focus {
   background-color: var(--lightgray);
 }
-.postlist-item > .post-tag {
+.eventlist-item > .event-tag {
   align-self: center;
 }
 
@@ -244,4 +244,27 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+
+footer {
+  position: relative;
+  bottom: 0;
+}
+
+.main-header{
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 1em 0.5em;
+}
+
+.main-header .home {
+
+}
+
+.mascot-logo {
+  position: relative;
+  left: 1em;
+  margin-right: 1em;
 }

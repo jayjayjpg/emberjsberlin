@@ -1,0 +1,25 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-event
+---
+<h1>{{ title }}</h1>
+
+{% if hideDate != true %}
+  <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+{% endif %}
+{%- for tag in tags | filterTagList -%}
+{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+<a href="{{ tagUrl | url }}" class="event-tag">{{ tag }}</a>
+{%- endfor %}
+
+{{ content | safe }}
+
+{%- set nextevent = collections.events | getNextCollectionItem(page) %}
+{%- set previousevent = collections.events | getPreviousCollectionItem(page) %}
+{%- if nextevent or previousevent %}
+<hr>
+<ul>
+  {%- if nextevent %}<li>Next: <a href="{{ nextevent.url | url }}">{{ nextevent.data.title }}</a></li>{% endif %}
+  {%- if previousevent %}<li>Previous: <a href="{{ previousevent.url | url }}">{{ previousevent.data.title }}</a></li>{% endif %}
+</ul>
+{%- endif %}
