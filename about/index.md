@@ -1,10 +1,10 @@
 ---
 layout: layouts/post.njk
-title: About Me
+title: About
 templateClass: tmpl-post
 eleventyNavigation:
-  key: About Me
+  key: About
   order: 4
 ---
 
-I am a person that writes stuff.
+EmberJS Berlin is organized by [@jkintscher](https://twitter.com/jkintscher) and [@jayjayjpg](https://twitter.com/jayjayjpg).

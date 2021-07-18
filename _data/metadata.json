@@ -1,21 +1,21 @@
 {
-  "title": "Your Blog Name",
+  "title": "EmberJS Berlin Meetup",
   "url": "https://example.com/",
   "language": "en",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "EmberJS Berlin is a community of Ember developers and enthusiasts. Join our regular online and in-person meetups and learn more about Ember.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "EmberJS Berlin is a community of Ember developers and enthusiasts. Join our regular online and in-person meetups and learn more about Ember.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://emberjsberlin.github.io"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://emberjsberlin.github.io/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "name": "The EmberJS Berlin Org Team",
+    "email": "emberjsberlin@gmail.com",
+    "url": "https://emberjsberlin.github.io/about/"
   }
 }
