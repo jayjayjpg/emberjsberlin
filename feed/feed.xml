@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>EmberJS Berlin Meetup</title>
+	<subtitle>EmberJS Berlin is a community of Ember developers and enthusiasts. Join our regular online and in-person meetups and learn more about Ember.</subtitle>
+	
+	<link href="https://example.com/feed/feed.xml" rel="self"/>
+	<link href="https://example.com/"/>
+	<updated>2021-07-13T00:00:00Z</updated>
+	<id>https://emberjsberlin.github.io</id>
+	<author>
+		<name>The EmberJS Berlin Org Team</name>
+		<email>emberjsberlin@gmail.com</email>
+	</author>
+	
+	<entry>
+		<title>EmberJS Berlin Meetup July 2021</title>
+		<link href="https://example.com/events/2021-07-13/"/>
+		<updated>2021-07-13T00:00:00Z</updated>
+		<id>https://example.com/events/2021-07-13/</id>
+		<content type="html">&lt;h2 id=&quot;embroider%3A-from-zero-to-route-splitting-in-3.5-weeks&quot;&gt;Embroider: from zero to route splitting in 3.5 weeks &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/events/2021-07-13/#embroider%3A-from-zero-to-route-splitting-in-3.5-weeks&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/bendemboski&quot;&gt;@bendemboski&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=c-sWTZJ6nlM&amp;amp;t=540s&quot;&gt;Talk&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;colorblindness-emulator-with-ember%2C-an-a11y-project&quot;&gt;Colorblindness emulator with Ember, an A11y project &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/events/2021-07-13/#colorblindness-emulator-with-ember%2C-an-a11y-project&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Agathebadia&quot;&gt;@AgatheBadia&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=c-sWTZJ6nlM&amp;amp;t=2156s&quot;&gt;Talk&lt;/a&gt; | &lt;a href=&quot;https://colorblindness-emulator.netlify.app/&quot;&gt;App&lt;/a&gt; | &lt;a href=&quot;https://docs.google.com/presentation/d/1rp3HtYONae0_YSAoktcxyQJHevg38uUyYHDSb2C9SCE/edit#slide=id.p&quot;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;you-could-get-used-to-this%3A-managing-graphql-data&quot;&gt;You could get used to this: Managing GraphQL data &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/events/2021-07-13/#you-could-get-used-to-this%3A-managing-graphql-data&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/mydea&quot;&gt;@mydea&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=c-sWTZJ6nlM&amp;amp;t=3480s&quot;&gt;Talk&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;on-the-development-of-reactive-systems-with-ember.js&quot;&gt;On the development of reactive systems with Ember.js &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/events/2021-07-13/#on-the-development-of-reactive-systems-with-ember.js&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/levelbossmike&quot;&gt;@LevelBossMike&lt;/a&gt; and &lt;a href=&quot;https://github.com/pangratz&quot;&gt;@pangratz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=c-sWTZJ6nlM&amp;amp;t=5118s&quot;&gt;Talk&lt;/a&gt; | &lt;a href=&quot;https://www.effective-ember.com/blog/robust-uis-with-statecharts/&quot;&gt;Blog post on Statecharts&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+</feed>
