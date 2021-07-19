@@ -1,78 +1,24 @@
-# eleventy-base-blog
+# EmberJS Berlin Website
 
-A starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator.
+This is the website of the **EmberJS Berlin meetup** group.
 
-[![Build Status](https://travis-ci.org/11ty/eleventy-base-blog.svg?branch=master)](https://travis-ci.org/11ty/eleventy-base-blog)
+Join our upcoming events: [EmberJS Berlin on meetup.com](https://www.meetup.com/g/Ember-js-Berlin/)
+Chat with us: [EmberJS Berlin on Twitter](https://twitter.com/emberliners)
+Message us: [EmberJS Berlin retro DMs](mailto:Emberjsberlin@gmail.com)
+Give a talk: [Instructions](#give-a-talk)
 
-## Demos
+## Give a talk
 
-* [Netlify](https://eleventy-base-blog.netlify.com/)
-* [GitHub Pages](https://11ty.github.io/eleventy-base-blog/)
-* [Remix on Glitch](https://glitch.com/~11ty-eleventy-base-blog)
+### Summary
 
-## Deploy this to your own site
+- [Fork](#) this repository
+- [Add](#) your talk title, abstract and social media / Github handle to [`index.md`](https://github.com/jayjayjpg/emberjsberlin/blob/main/index.md)
+- [Send a PR](#) from your fork to this repository's `main` branch
 
-These builders are amazing—try them out to get your own Eleventy site in a few clicks!
+### Give a talk - Fork
 
-* [Get your own Eleventy web site on Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)
-* [Get your own Eleventy web site on Vercel](https://vercel.com/import/project?template=11ty%2Feleventy-base-blog)
+### Give a talk - Add
 
-## Getting Started
+### Give a talk - Send a PR
 
-### 1. Clone this Repository
-
-```
-git clone https://github.com/11ty/eleventy-base-blog.git my-blog-name
-```
-
-
-### 2. Navigate to the directory
-
-```
-cd my-blog-name
-```
-
-Specifically have a look at `.eleventy.js` to see if you want to configure any Eleventy options differently.
-
-### 3. Install dependencies
-
-```
-npm install
-```
-
-### 4. Edit _data/metadata.json
-
-### 5. Run Eleventy
-
-```
-npx eleventy
-```
-
-Or build and host locally for local development
-```
-npx eleventy --serve
-```
-
-Or build automatically when a template changes:
-```
-npx eleventy --watch
-```
-
-Or in debug mode:
-```
-DEBUG=* npx eleventy
-```
-
-### Implementation Notes
-
-* `about/index.md` shows how to add a content page.
-* `events/` has the blog posts but really they can live in any directory. They need only the `event` tag to be added to this collection.
-* Add the `nav` tag to add a template to the top level site navigation. For example, this is in use on `index.njk` and `about/index.md`.
-* Content can be any template format (blog posts needn’t be markdown, for example). Configure your supported templates in `.eleventy.js` -> `templateFormats`.
-	* Because `css` and `png` are listed in `templateFormats` but are not supported template types, any files with these extensions will be copied without modification to the output (while keeping the same directory structure).
-* The blog post feed template is in `feed/feed.njk`. This is also a good example of using a global data files in that it uses `_data/metadata.json`.
-* This example uses three layouts:
-  * `_includes/layouts/base.njk`: the top level HTML structure
-  * `_includes/layouts/home.njk`: the home page template (wrapped into `base.njk`)
-  * `_includes/layouts/event.njk`: the blog post template (wrapped into `base.njk`)
-* `_includes/eventlist.njk` is a Nunjucks include and is a reusable component used to display a list of all the events. `index.njk` has an example of how to use it.
+This website is built with [Eleventy](https://github.com/11ty/eleventy) and [Eleventy Base Blog](https://github.com/11ty/eleventy-base-blog)
