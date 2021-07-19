@@ -1,5 +1,7 @@
 # EmberJS Berlin Website
 
+[jayjayjpg.github.io/emberjsberlin](https://jayjayjpg.github.io/emberjsberlin/)
+
 This is the website of the **EmberJS Berlin meetup** group.
 
 Join our upcoming events: [EmberJS Berlin on meetup.com](https://www.meetup.com/g/Ember-js-Berlin/)
