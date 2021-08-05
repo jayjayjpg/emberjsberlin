@@ -27,9 +27,15 @@ or create an issue on our Github repo: https://github.com/jayjayjpg/emberjsberli
 <span class="current-event-item">
 
 
-## Behavior Driven Development: Overcoming Cucumber
+<!-- Replace this line with your talk title: E.g. Accessibility Best Practices in Ember apps -->
+## Talk Title - TBA
+<!-- Replace this line with your talk Twitter or Github handle + link: E.g. [@emberliners](https://twitter.com/emberliners) -->
+[@socialmediahandle](url)
 
-[@lolmaus_en](https://twitter.com/lolmaus_en)
+<!-- Replace this with a short abstract of your talk: E.g. In this talk you'll learn all you need to know about hamsters who are passionate about code! -->
+Cupcake ipsum dolor sit amet ice cream tart sesame snaps liquorice. Jelly topping dessert toffee sweet roll. Macaroon sugar plum donut candy canes powder.
+<!-- Edit end -->
+
 
 </span>
 
