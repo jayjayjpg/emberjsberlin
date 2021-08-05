@@ -2,10 +2,13 @@
 :root {
   --lightgray: #E8E8E8;
   --gray: #425666;
-  --darkgray: #101519;
+  --darkgray: #435466;
   --navy: #17050F;
-  --blue: #082840;
-  --white: #fff;
+  --blue: #1F2D57;
+  --white: #FFFEFF;
+  --yellow: #F4B34B;
+  --black: #23262B;
+  --brown: #61300F;
 }
 
 /* Global stylesheet */
@@ -18,8 +21,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, system-ui, sans-serif;
-  color: var(--darkgray);
-  background-color: var(--lightgray);
+  color: var(--black);
+  background-color: var(--white);
 }
 p:last-child {
   margin-bottom: 0;
@@ -171,7 +174,7 @@ code {
 .eventlist-date,
 .eventlist-item:before {
   font-size: 0.8125em; /* 13px /16 */
-  color: var(--darkgray);
+  color: var(--blue);
 }
 .eventlist-date {
   word-spacing: -0.5px;
@@ -201,8 +204,8 @@ code {
   font-size: 0.6875em; /* 11px /16 */
   padding: 0.09090909090909em 0.3636363636364em; /* 1px 4px /11 */
   margin-left: 0.8em; /* 8px /10 */
-  color: var(--darkgray);
-  border: 1px solid var(--gray);
+  color: var(--black);
+  border: 1px solid var(--brown);
   border-radius: 0.25em; /* 3px /12 */
   text-decoration: none;
   line-height: 1.8;
@@ -213,7 +216,7 @@ a[href].event-tag:visited {
 }
 a[href].event-tag:hover,
 a[href].event-tag:focus {
-  background-color: var(--lightgray);
+  background-color: var(--yellow);
 }
 .eventlist-item > .event-tag {
   align-self: center;
@@ -252,6 +255,18 @@ footer {
   bottom: 0;
 }
 
+
+/* Color Palette
+
+white: #FFFEFF
+yellow: #F4B34B
+black: #23262B
+gray: #435466
+brown: #61300F;
+blue (dark): #1F2D57;
+
+*/
+
 .main-header{
   position: relative;
   display: flex;
@@ -267,4 +282,46 @@ footer {
   position: relative;
   left: 1em;
   margin-right: 1em;
+}
+
+.current-events {
+  margin-top: 4rem;
+}
+
+.current-events-list {
+  margin: 2rem -1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+.current-event-item, .current-event-item--lightning {
+  /* flex: 1; */
+  box-sizing: border-box;
+  padding: 0.8rem;
+  margin: 0 1rem;
+  flex: 1;
+  border-radius: 0.3rem;
+  box-shadow: 2px 4px 1px var(--gray);
+}
+
+.current-event-item {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.current-event-item a {
+  color: var(--lightgray);
+}
+
+.current-event-item--lightning {
+  background-color: var(--yellow);
+  color: var(--black);
+}
+
+.break {
+  flex-basis: 100%;
+  width: 0;
+  margin-top: 2rem;
 }
