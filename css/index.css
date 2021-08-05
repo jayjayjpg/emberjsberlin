@@ -6,7 +6,7 @@
   --navy: #17050F;
   --blue: #1F2D57;
   --white: #FFFEFF;
-  --yellow: #F4B34B;
+  --yellow: #f6c679;
   --black: #23262B;
   --brown: #61300F;
 }
@@ -288,6 +288,10 @@ blue (dark): #1F2D57;
   margin-top: 4rem;
 }
 
+.current-event-title, h1, h2, h3 {
+  color: var(--brown);
+}
+
 .current-events-list {
   margin: 2rem -1rem;
   display: flex;
@@ -311,12 +315,26 @@ blue (dark): #1F2D57;
   color: var(--white);
 }
 
-.current-event-item a {
+.current-event-item a,
+.current-event-item h1,
+.current-event-item h2,
+.current-event-item h3 {
+  color: var(--white);
+}
+
+.current-event-item a:visited {
   color: var(--lightgray);
 }
 
 .current-event-item--lightning {
   background-color: var(--yellow);
+  color: var(--black);
+}
+
+.current-event-item--lightning a,
+.current-event-item--lightning h1,
+.current-event-item--lightning h2,
+.current-event-item--lightning h3 {
   color: var(--black);
 }
 

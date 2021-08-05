@@ -4,9 +4,9 @@ title: EmberJS Berlin
 templateClass: tmpl-event
 date: 2021-09-07
 hideDate: true
-eleventyNavigation:
-  key: Home
-  order: 1
+# eleventyNavigation:
+#  key: Home
+#  order: 1
 ---
 
 <!--
