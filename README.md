@@ -16,9 +16,9 @@ This is the website of the **EmberJS Berlin meetup** group.
 
 ### Summary
 
-- [Fork](#) this repository
-- [Add](#) your talk title, abstract and social media / Github handle to [`index.md`](https://github.com/jayjayjpg/emberjsberlin/blob/main/index.md)
-- [Send a PR](#) from your fork to this repository's `main` branch
+- [Fork](#give-a-talk---fork) this repository
+- [Add](#give-a-talk---add) your talk title, abstract and social media / Github handle to [`index.md`](https://github.com/jayjayjpg/emberjsberlin/blob/main/index.md)
+- [Send a PR](#give-a-talk---send-a-pr) from your fork to this repository's `main` branch
 
 ### Give a talk - Fork
 

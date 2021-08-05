@@ -1,4 +1,4 @@
-<ol reversed class="eventlist" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
+<ul reversed class="eventlist" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
 {% for event in postslist | reverse %}
   <li class="eventlist-item{% if event.url == url %} eventlist-item-active{% endif %}">
     <a href="{{ event.url | url }}" class="eventlist-link">{% if event.data.title %}{{ event.data.title }}{% else %}<code>{{ event.url }}</code>{% endif %}</a>
@@ -9,4 +9,4 @@
     {% endfor %}
   </li>
 {% endfor %}
-</ol>
+</ul>

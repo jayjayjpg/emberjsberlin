@@ -12,15 +12,19 @@ templateClass: tmpl-event
   Send us a pull request with your name, talk title and abstract at <a href="https://github.com/jayjayjpg/emberjsberlin" rel="noopener noreferrer">our website repo on Github</a>.</p>
 </p>
 
-<section>
+<section class="current-events">
+<hr />
   <h2>Next Event</h2>
-  <p><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></p>
+  <h3>Details</h3>
+  <p>
+    <a href="https://www.meetup.com/Ember-js-Berlin/events/279575307/" target="_blank">Virtual Meetup</a> on <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>.
+    RSVP on <a href="https://www.meetup.com/Ember-js-Berlin/events/279575307/" target="_blank">meetup.com</a>!
+  </p>
   <article>
-    <h3>The Talks ✨</h3>
-    <hr />
-
+  <h3>The Talks ✨</h3>
+    <section class="current-events-list">
 {{ content | safe }}
-
+    </section>
     <hr />
   </article>
 </section>
@@ -29,7 +33,7 @@ templateClass: tmpl-event
   <a href="https://twitter.com/emberliners" target="_blank" rel="noopener noreferrer">@emberliners</a>
 </p>
 
-<p>Join our meetup page to get notified if new events are announced:
+<p>Join our meetup page to get notified when new events are announced:
   <a href="https://www.meetup.com/g/Ember-js-Berlin" target="_blank" rel="noopener noreferrer">EmberJS Berlin on Meetup</a>
 </p>
 
